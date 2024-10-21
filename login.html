@@ -1,0 +1,64 @@
+<!-- 
+    Crumbs & Layer
+    Name: Tienzo, Krisean G.
+    Section: WD - 202
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Rowdies:wght@300;400;700&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="50x30" href="images/CNLogo-removebg-preview.png" >
+
+    <title>Crumbs & Layer</title>
+    <style>
+        .background {
+            background: url(images/bg\ login.png) no-repeat center center / cover;
+            height: 100vh; 
+            width: 100vw;  
+            position: relative; 
+            overflow: hidden; 
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="background">
+    <div class="container">        
+        <div class="right-panel">
+            <h2 class="log-h2">Sign In <a href="index.html"><img src="images/Crumbs & Layer Logo.png" class="log-logo"></a></h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Juan Dela Cruz" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="juandelacruz@email.com" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Security</legend>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="At least 8 characters" required>
+                    </div>
+                </fieldset>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+                <div class="button-group">
+                    <button type="submit" class="submit-btn">Submit</button>
+                    <button type="reset" class="reset-btn">Reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>

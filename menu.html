@@ -1,0 +1,282 @@
+<!-- 
+    Crumbs & Layer
+    Name: Tienzo, Krisean G.
+    Section: WD - 202
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Rowdies:wght@300;400;700&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="50x30" href="images/CNLogo-removebg-preview.png" >
+
+    <title>Crumbs & Layer</title>
+    <!-- <style>
+        
+        .navbar {
+            position: absolute;
+            width: 70%;
+            background-color: #fec7d7;
+            width: 1350px;
+            height: 156px;
+            border-radius: 30px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            left: 86px;
+        top: -21px;
+        }
+
+        .navbar-list {
+            display: flex;
+            list-style: none;
+        }
+
+        .navbar-center {
+            text-align: center;
+        }
+
+        .navbar-list li {
+            margin: 0 15px;
+        }
+
+        .logo {
+            width: 265px;
+            height: 105px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .nav-link:hover {
+            color: #ff6666;
+        }
+        .content {
+            text-align: center;
+        }
+        .menu-menu {
+            font-size: 100px;
+            margin-bottom: 20px;
+            padding-top: 0;
+            font-family: "Road Rage", sans-serif;
+        }
+        .drip {
+            width: 1510px;
+            padding-bottom: 0;
+        }
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 5px;
+        }
+        .menu-item {
+            border: 1px solid #000;
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .menu-item img {
+            width: 190px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .menu-item-h3 {
+            margin: 10px 0;
+            font-family: "Inter", sans-serif;
+
+        }
+        .menu-item-p {
+            color: #666;
+            margin-bottom: px;
+            font-family: "Inter", sans-serif;
+
+        }
+        .menu-item:hover {
+            border: 1px solid black;
+            background-color: #fec7d7;
+
+        }
+        .menu-item button {
+            margin-left: 25%;
+        }
+        .price {
+            font-weight: bold;
+            font-size: 18px;
+            margin-right: 25%;
+        }
+        .add-to-cart {
+            background-color: #ff6666;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .add-to-cart:hover {
+            background-color: #ff4444;
+        }
+        #cart-icon {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: white;
+            padding: 10px;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: #ff6666;
+            font-size: 24px;
+        }
+        #cart-count {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            background-color: #FEC7D7;
+            color: white;
+            border-radius: 50%;
+            padding: 2px 6px;
+            font-size: 12px;
+        }
+        
+    </style> -->
+    <style>
+        .background {
+            background: url(images/straw-drip2.png) no-repeat center center/cover;
+            width: 100%; 
+            height: auto; 
+            min-height: 400px;
+        }
+        @media print {
+            .background {
+                display: none;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-mobile">
+            <div class="hamburger-menu" id="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="mobile-nav" id="mobile-nav">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar" id="tablet-desktop">
+            <ul class="navbar-list" id="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+            </ul>
+            <div class="navbar-center">
+                <a href="index.html"> <img src="images/Crumbs & Layer Logo.png" alt="Crumbs & Layer Logo" class="logo"> </a>
+            </div>
+            <ul class="navbar-list" id="nav-list">
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="background">
+        <h1 class="bg-menu">Menu</h1>
+
+    </section>
+    <a href="cart.html" id="cart-icon">🛒<span id="cart-count">0</span></a>
+    
+    
+    <div class="content-menu">
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="images/chocolate chip.png" alt="Chocolate Chip Cookie">
+                <h3 class="menu-item-h3">Chocolate Chip Cookie</h3>
+                <p class="menu-item-p">Top of with Chocolate Chips</p>
+                <span class="price">$4.95</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/biscoff.png" alt="Biscoff Cookie">
+                <h3 class="menu-item-h3">Biscoff Cookie</h3>
+                <p class="menu-item-p">Top of with Biscoff Crumbs</p>
+                <span class="price">$4.95</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/Pistachio.png" alt="Pistachio Cookie">
+                <h3 class="menu-item-h3">Pistachio Cookie</h3>
+                <p class="menu-item-p">Top of with Pistachio Nuts</p>
+                <span class="price">$4.95</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/chocolate.png" alt="Choco Caramel Cookie">
+                <h3 class="menu-item-h3">Choco Caramel Cookie</h3>
+                <p class="menu-item-p">Top of with Caramel Syrup</p>
+                <span class="price">$4.95</span>
+                <button class="add-to-cart" >Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/matcha.png" alt="Matcha Berry Cookie">
+                <h3 class="menu-item-h3">Matcha Berry Cookie</h3>
+                <p class="menu-item-p">Top of with Strawberry</p>
+                <span class="price">$4.95</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="images/kinderella.png" alt="Kinderella Cookie">
+                <h3 class="menu-item-h3">Kinderella Cookie</h3>
+                <p class="menu-item-p">Top of with Kinderella bar</p>
+                <span class="price">$4.95</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-contact">Contact Us</h3>
+                <p>&#9742; (012) 345 - 6789</p>
+                <p>&#9993; crumbsandlayer@gmail.com</p>
+                <p>&#128506; Clark Tech Hub 9, Skyline, SM City Clark, <br> Angeles City, Philippines</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <a href="https://www.facebook.com/kgtnzo/" target="_blank" class="social-icons">
+                <img src="images/facebook.jpg" alt="Facebook" class="social-icons-fb">
+            </a>
+            <a href="https://www.instagram.com/seannng_/" target="_blank" class="social-icons">
+                <img src="images/instagram.jpg" alt="Instagram" class="social-icons-ig">
+            </a>
+            <p>&copy; Copyright 2024. All rights reserved. Created by Krisean G. Tienzo</p>
+        </div>
+    </footer>
+    
+    
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
